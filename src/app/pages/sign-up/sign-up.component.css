@@ -1,0 +1,58 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left Image Section */
+.bg-light {
+    background-color: #f0f0f0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Form Styling */
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 45px;
+    border-radius: 0;
+}
+
+.btn {
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .vh-100 {
+        height: auto;
+    }
+}

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    background-color: white;
+}
+
+thead {
+    background-color: #f8f9fa;
+}
+
+.breadcrumb {
+    background-color: white;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.card {
+    border: 1px solid #ddd;
+}
+
+.card h5 {
+    margin-bottom: 20px;
+}
+
+.btn-danger {
+    background-color: #ff4500;
+    border-color: #ff4500;
+}
+
+.btn-danger:hover {
+    background-color: #e93f00;
+    border-color: #e93f00;
+}
+
+input[type="text"] {
+    height: 45px;
+    border-radius: 0;
+}
+
+.form-select {
+    height: 40px;
+}

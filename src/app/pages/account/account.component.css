@@ -1,0 +1,58 @@
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.sidebar h4 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #dc3545;
+}
+
+.profile-form {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.profile-form h3 {
+    color: #dc3545;
+    margin-bottom: 30px;
+}
+
+.profile-form .form-label {
+    font-weight: bold;
+}
+
+.profile-form .btn {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.profile-form .btn:hover {
+    background-color: #c82333;
+    color: #fff;
+}
